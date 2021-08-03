@@ -20,7 +20,7 @@ class LanguagePL:
     def print_interfaces(self):
         subprocess.run("clear")
         print("Aby móc zmienić adres mac interfejsu musisz uruchomić program z uprawnieniami root, lub program"
-              " za pierwszym uruchomieniem niezadziała.\n")
+              " za pierwszym uruchomieniem nie zadziała.\n")
         print("Lista dostępnych interfejsów sieciowych:\n")
 
     def chosen_dec(self):
@@ -35,8 +35,8 @@ class LanguagePL:
         print("interface: " + interface)
         print("mac: " + mac + "\n")
 
-        print("Wybierz jak chcesz zmienic adres mac danego interfejsu sieciowego: \n")
-        print("1) Generowanie randomowowy zestaw znaków i liczb")
+        print("Wybierz jak chcesz zmienić adres mac danego interfejsu sieciowego: \n")
+        print("1) Generowanie randomowowego zestawu liczb")
         print("2) Wpisz sam")
         print("e) exit\n")
 
